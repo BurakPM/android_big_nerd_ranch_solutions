@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_turkey">Istanbul is the capital of Turkey.</string>
+    <string name="question_nile">Nile River is the longest river in the world.</string>
+    <string name="question_iceland">Iceland is covered in ice.</string>
+    <string name="question_sahara">Sahara is the biggest desert in the world.</string>
+    <string name="question_maldives">Maldives is the smallest country in the world.</string>
+    <string name="question_vatican">Vatican City is the least populated country in the world.</string>
+    <string name="question_beijing">Beijing is the capital of China</string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="error">Already answered.</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="token_text">Cheat Tokens: </string>
+</resources>
+
+
+
+
