@@ -35,3 +35,7 @@ local.properties
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
+
+## Test files
+/androidTest
+/test
