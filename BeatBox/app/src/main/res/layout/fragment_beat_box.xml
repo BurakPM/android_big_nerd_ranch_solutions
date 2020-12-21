@@ -1,0 +1,39 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="android.bignerdranch.com.beatbox.SoundViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/seek_bar_text"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_above="@id/seek_bar"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            style="@style/SeekBarTheme" />
+
+    </RelativeLayout>
+
+</layout>
